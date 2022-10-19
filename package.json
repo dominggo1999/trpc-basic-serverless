@@ -11,7 +11,10 @@
     "serverful": "concurrently \"cross-env SERVERFUL=true vite\" \"npm run dev:backend\"",
     "build": "npm run build:client && npm run build:backend",
     "start": "concurrently \"npm run dev:client\" \"npm run preview:backend\"",
-    "netlify:dev": "netlify dev"
+    "netlify:dev": "netlify dev",
+    "istoria:dev": "vite --config vite.istoria.config.ts",
+    "istoria:build": "tsc --p ./istoria/tsconfig.json && vite build --config vite.istoria.config.ts",
+    "istoria:preview": "vite preview --config vite.istoria.config.ts"
   },
   "babelMacros": {
     "twin": {
@@ -26,6 +29,7 @@
     "cors": "^2.8.5",
     "cross-fetch": "^3.1.5",
     "express": "^4.18.2",
+    "istoria": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2",

@@ -19,6 +19,13 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "typeRoots": [
+      "./types",
+      "node_modules/@types"
+    ],
+    "types": [
+      "vite/client",
+    ],
     "paths": {
       "client/*": [
         "./client/*"
@@ -30,7 +37,7 @@
   },
   "include": [
     "client",
-    "types"
+    "types",
   ],
   "references": [
     {
