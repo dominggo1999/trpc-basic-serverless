@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "backend-output/"
+  ],
+  "ext": "ts, js, json",
+  "env": {
+    "SERVERFUL": true
+  }
+}

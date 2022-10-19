@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./backend-output",
+    "esModuleInterop": true,
+    "baseUrl": "./backend",
+    "lib": [
+      "es2021",
+      "dom"
+    ]
+  },
+  "include": [
+    "backend",
+  ],
+}
