@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-twin-typescript",
+  "name": "trpc-basic-serverless",
   "version": "0.0.0",
   "scripts": {
     "dev:client": "vite",
