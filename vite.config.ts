@@ -20,4 +20,7 @@ export default defineConfig({
   define: {
     'process.env.SERVERFUL': process.env.SERVERFUL,
   },
+  server: {
+    open: false,
+  },
 });

@@ -3,10 +3,7 @@
         "browser": true,
         "es2021": true
     },
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb"
-    ],
+    "extends": ["plugin:react/recommended", "airbnb"],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
@@ -15,24 +12,16 @@
         "ecmaVersion": 12,
         "sourceType": "module"
     },
-    "plugins": [
-        "react",
-        "@typescript-eslint"
-    ],
+    "plugins": ["react", "@typescript-eslint"],
     "rules": {
-        "react/jsx-filename-extension": [
-            0
-        ],
+        "react/jsx-filename-extension": [0],
         "react/react-in-jsx-scope": 0,
         "react/jsx-one-expression-per-line": 0,
         "no-unused-vars": "off",
         "no-unused-expressions": "off",
         "keyword-spacing": "off",
         "react/button-has-type": 0,
-        "react/jsx-first-prop-new-line": [
-            1,
-            "multiline"
-        ],
+        "react/jsx-first-prop-new-line": [1, "multiline"],
         "react/jsx-max-props-per-line": [
             1,
             {
@@ -85,16 +74,8 @@
                     "client": "./client",
                     "backend": "./backend"
                 },
-                "extensions": [
-                    ".js",
-                    ".ts",
-                    ".jsx",
-                    ".tsx",
-                    ".json"
-                ],
-                "packages": [
-                    "packages/*"
-                ]
+                "extensions": [".js", ".ts", ".jsx", ".tsx", ".json"],
+                "packages": ["packages/*"]
             }
         },
         "mdx/code-blocks": true,
