@@ -8,6 +8,7 @@
     "**/Thumbs.db": true,
     "backend-output": true,
     "**/.netlify": true,
-    "**/backend": true
+    "**/backend": true,
+    "**/istoria-dist": true,
   }
 }

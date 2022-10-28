@@ -15,19 +15,7 @@ export default defineConfig({
     },
   },
   plugins: [
-    react({
-      babel: {
-        plugins: [
-          'babel-plugin-macros',
-          [
-            'babel-plugin-styled-components',
-            {
-              displayName: process.env.NODE_ENV !== 'production',
-            },
-          ],
-        ],
-      },
-    }),
+    react(),
   ],
   define: {
     'process.env.SERVERFUL': process.env.SERVERFUL,
